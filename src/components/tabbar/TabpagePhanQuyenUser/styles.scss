@@ -1,0 +1,36 @@
+
+.TabBar_Page{
+  .ant-tabs-nav-list {
+    border: 1px solid #FF7506;
+    border-radius: 24px;
+  }
+  .ant-tabs-tab {
+    width: 207px;
+    height: 40px;
+    border-radius: 24px !important;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px;
+    justify-content: center;
+    color: #ffffff;
+  
+    opacity: 0.7;
+  }
+  
+  .ant-tabs-tab.ant-tabs-tab-active {
+    position: relative;
+    background-color: #b65100 !important;
+    border: 1px solid #FF7506 !important;
+    z-index: 10;
+    .ant-tabs-tab-btn{
+      color: white !important;
+    }
+   
+  
+   
+  }
+}
+
+

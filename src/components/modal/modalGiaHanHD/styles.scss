@@ -1,0 +1,196 @@
+.ModalGiaHanHD {
+  .ant-modal-content {
+    background-color: #3e3e5b !important;
+    border-radius: 16px !important;
+    width: 908px;
+    height: 623px;
+    .ant-modal-body {
+      .Modal_Title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h3 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 24px;
+
+          color: #f5f5ff;
+        }
+      }
+      .Modal_GHHD-Form {
+        display: flex;
+        margin-bottom: 40px;
+      }
+      .ThongTinHD_Form-Files {
+        width: 400px;
+        margin-top: 100px;
+      }
+
+      .Form_Left-Item {
+        display: flex;
+        align-items: center;
+        .ant-picker {
+          
+          background-color: #2b2b3f;
+          border: 1px solid #727288;
+          input {
+            width: 131px;
+            height: 48px;
+            border-radius: 8px;
+            font-size: 18px;
+            color: white;
+          }
+          .ant-picker-suffix {
+            color: #ff7506 !important;
+            svg {
+              width: 24px;
+            }
+          }
+        }
+
+        &_select {
+          margin-left: 12px;
+        }
+        &_Title {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+
+          color: #ffffff;
+        }
+        &_Sub {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          width: 267px;
+          height: 54px;
+          color: #ffd0ab;
+          opacity: 0.5;
+        }
+      }
+
+      .FileItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 28px;
+        margin-top: 8px;
+        span {
+          margin-left: 8px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+
+          color: #ffffff;
+        }
+      }
+
+      .Form_Right {
+        .ant-col.ant-form-item-label.css-dev-only-do-not-override-1cr6b6 {
+          display: flex;
+          align-items: center;
+        }
+        .flex_form {
+          display: flex;
+          align-items: center;
+          input {
+            width: 64px;
+            height: 48px;
+            color: #f5f5ff;
+            background: #2b2b3f;
+            border-radius: 8px;
+          }
+          input::placeholder {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #727288;
+          }
+          span {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-left: 12px;
+            color: #f5f5ff;
+          }
+        }
+        .Item_FormSelect {
+          display: flex;
+          align-items: center;
+          .FormQLienQuan_Item {
+            display: flex;
+            align-items: center;
+            &-Title{
+              p{
+                margin: 0;
+              }
+          
+            }
+          }
+        }
+        .Form_Title-text {
+          p {
+            color: #f5f5ff !important;
+          }
+        }
+      }
+      label {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #f5f5ff;
+      }
+      textarea {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex !important;
+        align-items: center !important;
+        letter-spacing: -0.002em;
+
+        color: #ffffff;
+        background: #2b2b3f;
+        border: 1px solid #727288;
+        border-radius: 8px;
+      }
+      textarea ::placeholder {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #727288;
+      }
+
+      .btn-group {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+      }
+    }
+  }
+  .ml-2 {
+    margin-left: 12px;
+    margin-bottom: 24px;
+  }
+}

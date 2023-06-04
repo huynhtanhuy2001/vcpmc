@@ -1,0 +1,174 @@
+.Table-LayList {
+  margin-top: 32px;
+  width: 1534px;
+  .Item-HLuc {
+    height: 47px;
+    display: block;
+    // display: flex;
+    // justify-content: baseline;
+    // align-items: center;
+    padding: 0;
+    &_Group {
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      margin-bottom: 0;
+      margin-left: 12px;
+    }
+
+    &_Sub {
+      p {
+        font-size: 12px;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+.ant-spin-container {
+  width: 1534px;
+  background: rgba(47, 47, 65, 0.7) !important;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+
+  .ant-table {
+    height: 680px !important ;
+    background: rgba(47, 47, 65, 0.7) !important;
+    border-radius: 16px !important;
+    margin-bottom: 30px !important;
+    table {
+      border-collapse: collapse;
+      border-radius: 16px;
+    }
+    thead {
+      .ant-table-cell {
+        background-color: rgba(47, 47, 65, 0.7) !important;
+        border-bottom: 1px solid #727288 !important;
+      }
+      .ant-table-cell::before {
+        display: none;
+      }
+      tr {
+        border: none !important;
+      }
+      th {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #ffac69 !important;
+      }
+    }
+    tbody {
+      .ant-table-cell {
+        height: 47px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        border-bottom: 1px solid #727288 !important;
+      }
+      td {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #ffffff !important;
+        a {
+          color: #ff7506;
+          text-decoration: underline !important;
+        }
+      }
+      .ant-table-row-selected {
+        td.ant-table-cell {
+          background: rgba(47, 47, 65, 0.7) !important;
+        }
+      }
+      td.ant-table-cell.ant-table-cell-row-hover {
+        background-color: #ffac69 !important;
+      }
+    }
+  }
+
+  li.ant-pagination-item {
+    a {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+
+      color: #fff9f4 !important;
+    }
+  }
+  li.ant-pagination-item.ant-pagination-item-active {
+    background: rgba(255, 117, 6, 0.5);
+    border-radius: 50%;
+  }
+
+  svg {
+    color: #ffac69 !important;
+  }
+  :where(.css-dev-only-do-not-override-1cr6b6).ant-table-wrapper
+    .ant-table-tbody
+    > tr.ant-table-row-selected
+    > td {
+    background: transparent !important;
+  }
+}
+.Item-CD {
+  border: 1px solid #727288;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #f5f5ff;
+
+    opacity: 0.7;
+    margin: 0;
+  }
+  .RecordNameTPUQ {
+  &_Name {
+    p {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+  }
+  &_SubName {
+    display: flex;
+    align-items: center;
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 4px;
+      span {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px I !important;
+        line-height: 18px;
+
+        color: #ffffff !important;
+
+        opacity: 0.5 !important;
+      }
+    }
+  }
+}
+}

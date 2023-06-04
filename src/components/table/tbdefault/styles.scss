@@ -1,0 +1,181 @@
+.TableDefault {
+  margin-top: 32px;
+  &_title {
+    margin-bottom: 24px;
+    h3 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+
+      color: #fff9f4;
+    }
+  }
+}
+.ant-spin-nested-loading {
+  height: 100% !important;
+}
+.ant-spin-container {
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(47, 47, 65, 0.7) !important;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+
+  .ant-table {
+    width: 100% !important;
+    height: 100% !important ;
+    background: rgba(47, 47, 65, 0.7) !important;
+    border-radius: 16px !important;
+    margin-bottom: 30px !important;
+    table {
+      border-collapse: collapse;
+      border-radius: 16px;
+    }
+    thead {
+      .ant-table-cell {
+        background-color: rgba(47, 47, 65, 0.7) !important;
+        border-bottom: 1px solid #727288 !important;
+      }
+      .ant-table-cell::before {
+        display: none;
+      }
+      tr {
+        border: none !important;
+      }
+      th {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #ffac69 !important;
+      }
+    }
+    tbody {
+      .ant-table-cell {
+        height: 48px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        border-bottom: 1px solid #727288 !important;
+      }
+      td {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #ffffff !important;
+        a {
+          color: #ff7506;
+          text-decoration: underline !important;
+        }
+      }
+      td.ant-table-cell.ant-table-cell-row-hover {
+        background-color: #ffac69 !important;
+      }
+    }
+  }
+
+  li.ant-pagination-item {
+    a {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+
+      color: #fff9f4 !important;
+    }
+  }
+  li.ant-pagination-item.ant-pagination-item-active {
+    background: rgba(255, 117, 6, 0.5);
+    border-radius: 50%;
+  }
+
+  svg {
+    color: #ffac69 !important;
+  }
+}
+.Item-HLuc {
+  height: 47px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0;
+  p {
+    margin-bottom: 0;
+    margin-left: 12px;
+  }
+}
+.RecordNameTPUQ {
+  &_Name {
+    p {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+  }
+  &_SubName {
+    display: flex;
+    align-items: center;
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 4px;
+      span {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px I !important;
+        line-height: 18px;
+
+        color: #ffffff !important;
+
+        opacity: 0.5 !important;
+      }
+    }
+  }
+}
+.ThietBi_List {
+ 
+  ul  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  li {
+    list-style: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    height: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+  }
+  li:last-child{
+    border-right: none;
+  }
+}
+.TimePhat_List {
+  span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,29 @@
+.Content-body_PlaylistPage-Create {
+  display: flex;
+}
+.btn-group {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Content-body_PlaylistPage-AddBanGhi {
+  display: flex;
+  align-items: center;
+ 
+  &_Left {
+    width: 800px;
+    height: 727px;
+    margin: 24px;
+
+    background: rgba(47, 47, 65, 0.7);
+    border-radius: 16px;
+  }
+  &_Right {
+    width: 800px;
+    height: 727px;
+    background: rgba(47, 47, 65, 0.7);
+    border-radius: 16px;
+    
+  }
+}

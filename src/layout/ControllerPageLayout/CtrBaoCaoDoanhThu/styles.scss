@@ -1,0 +1,66 @@
+.Control-BCDoanhThu {
+  display: flex;
+  width: 1534px !important;
+  justify-content: space-between;
+}
+.Control-BCDoanhThu_GroupSelect {
+  display: flex;
+}
+.Control-BCDoanhThu_TitleTable {
+  margin-top: 24px;
+  ul {
+    display: flex;
+    height: 96px;
+    width: 1540px;
+    align-items: center;
+    background: rgba(47, 47, 65, 0.7);
+    border-radius: 16px;
+  }
+  li {
+    width: 308px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    border-right: 1px solid #C8C8DB;
+
+    label {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+
+      opacity: 0.5;
+    }
+    p {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      margin: 0;
+      color: #ffac69;
+    }
+  }
+  li:last-child{
+    border: none;
+  }
+}
+.Control-BCDoanhThu_TitleArea{
+  margin-top: 40px;
+  h3{
+    /* Header Bold 24 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+
+color: #FFF9F4;
+  }
+}
+// .Control-DSHopDong_Search{
+//     margin-left: 286px;
+// }

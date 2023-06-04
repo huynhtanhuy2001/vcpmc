@@ -1,0 +1,11 @@
+.BtnTabPlayList{
+    position: absolute;
+    right: 0;
+    top:50%;
+    &_Item{
+        display: flex;
+        &-list{
+            margin-right: 12px
+        }
+    }
+}

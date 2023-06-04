@@ -1,0 +1,108 @@
+.TabThongTinHD {
+  width: 1712px;
+  &_FormBottom,
+  &_FormTob {
+    display: flex;
+    justify-content: space-between;
+    width: 1420px;
+    margin-bottom: 88px;
+  }
+  label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #ffffff !important;
+    opacity: 1 !important;
+  }
+  span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px;
+    margin-left: 28px;
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  .ant-form-item-control-input-content {
+    display: flex;
+  
+    letter-spacing: -0.002em;
+    width: 250px;
+  }
+
+  &_Form-Files{
+    .FileItem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 28px;
+      margin-top: 8px;
+      span {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+.Form_InfoHD {
+}
+.ant-form-item {
+  margin-bottom: 16px !important;
+}
+.Item-HLuc {
+  height: 24px;
+  display: flex;
+  // justify-content: baseline;
+  // align-items: center;
+  padding: 0;
+  margin-left: 28px;
+  p {
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+
+    opacity: 0.8;
+  }
+}
+.Form_Title {
+  display: flex;
+  margin-bottom: 16px;
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #ffac69;
+  }
+}
+.FormQLienQuan {
+  &_Item {
+    display: flex;
+    &-Title {
+      margin-right: 10px;
+      width: 230px;
+      letter-spacing: -0.002em;
+    }
+  }
+
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}

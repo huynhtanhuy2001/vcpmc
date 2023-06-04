@@ -1,0 +1,75 @@
+.LSDoiSoatPage {
+  display: flex;
+
+  &_Left {
+    margin-right: 24px;
+    &-Top {
+      width: 525px;
+      height: 432px;
+      background: #2b2b3f;
+      border-radius: 16px;
+      margin-bottom: 24px;
+    }
+    &-Bottom {
+      width: 525px;
+      height: 386px;
+      background: #2b2b3f;
+      border-radius: 16px;
+    }
+    &-Title {
+      padding-top: 24px;
+      margin-left: 24px;
+      h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+        color: #ff7506;
+      }
+    }
+    &-Form {
+      margin-left: 24px;
+      width: 100%;
+      label {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff !important;
+        opacity: 1;
+        width: 250px;
+      }
+      span {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #f5f5ff;
+
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &_Right {
+    &_Title {
+      h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+
+        color: #e5e5e5;
+      }
+    }
+    &_Control{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+}

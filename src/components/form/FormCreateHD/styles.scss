@@ -1,0 +1,237 @@
+.CreateHD {
+  width: 1712px;
+  &_FormBottom,
+  &_FormTob {
+    display: flex;
+    justify-content: space-between;
+    width: 1650px;
+    margin-bottom: 88px;
+  }
+  &_FormTob {
+    border-bottom: 1px solid #727288;
+  }
+  label {
+    width: 185px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #ffffff !important;
+    opacity: 1 !important;
+  }
+  input {
+    width: 325px;
+    height: 48px;
+    background: #2b2b3f;
+    border: 1px solid #727288;
+    border-radius: 8px;
+     font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+    
+  }
+
+  .ant-picker {
+    width: 325px;
+    height: 48px;
+    background-color: #2b2b3f;
+    border: 1px solid #727288;
+    input {
+      width: 131px;
+      height: 48px;
+      border-radius: 8px;
+      font-size: 18px;
+      color: white;
+    }
+    .ant-picker-suffix {
+      color: #ff7506 !important;
+      font-size: 24px;
+      svg {
+        width: 24px;
+      }
+    }
+  }
+  .ant-select-selector {
+    height: 48px !important;
+    border: 1px solid #727288 !important;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    background-color: #2b2b3f !important;
+    color: white !important;
+  }
+
+  .ant-select-selection-item::after {
+    color: #ffffff !important;
+  }
+  span.ant-select-arrow {
+    color: #ff7506 !important;
+  }
+
+  &_Form-NhuanBut {
+    span {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px !important;
+      line-height: 24px;
+
+      color: #ffffff;
+      opacity: 0.7;
+    }
+  }
+
+  .ant-form-item-control-input-content {
+    display: flex;
+
+    letter-spacing: -0.002em;
+    width: 250px;
+  }
+
+  .ant-radio-group.ant-radio-group-outline {
+    display: flex;
+    width: 325px;
+    span.ant-radio-inner {
+      width: 24px;
+      height: 24px;
+    }
+    span {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      opacity: 0.8;
+      color: #ffffff;
+    }
+
+    .ant-select-item.ant-select-item-option.ant-select-item-option-active.ant-select-item-option-selected {
+      background-color: #ff7506;
+    }
+    :where(.css-dev-only-do-not-override-1cr6b6).ant-select-dropdown
+      .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+      background-color: #ff7506;
+    }
+  }
+  textarea {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex !important;
+    align-items: center !important;
+    letter-spacing: -0.002em;
+
+    color: #ffffff;
+    background: #2b2b3f;
+    border: 1px solid #727288;
+    border-radius: 8px;
+  }
+  textarea ::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #727288;
+  }
+  &_Form-Files {
+    .FileItem {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 28px;
+      margin-top: 8px;
+      span {
+        margin-left: 8px;
+      }
+    }
+    :where(.css-dev-only-do-not-override-1cr6b6).ant-upload-wrapper
+      .ant-upload-list {
+      position: absolute;
+      left: 0;
+    }
+    :where(.css-dev-only-do-not-override-1cr6b6).ant-upload-wrapper
+      .ant-upload-list
+      .ant-upload-list-item
+      .ant-upload-list-item-name {
+      width: 250px;
+    }
+  }
+}
+
+.Form_InfoHD {
+}
+.ant-form-item {
+  margin-bottom: 16px !important;
+}
+.Item-HLuc {
+  height: 24px;
+  display: flex;
+  // justify-content: baseline;
+  // align-items: center;
+  padding: 0;
+  margin-left: 28px;
+  p {
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+
+    opacity: 0.8;
+  }
+}
+.Form_Title {
+  display: flex;
+  margin-bottom: 16px;
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #ffac69;
+  }
+}
+.FormQLienQuan {
+  &_Item {
+    display: flex;
+    &-Title {
+      margin-right: 10px;
+      width: 230px;
+      letter-spacing: -0.002em;
+    }
+  }
+
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+.ant-select-dropdown {
+  background-color: rgb(62, 62, 91) !important;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,192 @@
+.Content-body_SupportPage_Title {
+  width: 400px;
+  height: 76px;
+  border-radius: 16px 16px 0px 0px;
+  background: #39394d;
+
+  //   position: absolute;
+
+  h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #ffffff;
+    padding-top: 24px;
+    margin-left: 24px;
+  }
+}
+.Tab_HDSD {
+  .ant-tabs-nav {
+    width: 400px;
+    height: 824px !important;
+    background: rgba(47, 47, 65, 0.7);
+    border-radius: 0px 0px 16px 16px;
+    margin-right: 24px;
+  }
+  .Value_Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    h3 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      color: #ff7506;
+    }
+  }
+  .ant-tabs-content-holder {
+    .ant-tabs-content.ant-tabs-content-left {
+      width: 1211px;
+      height: 900px;
+      background: rgba(47, 47, 65, 0.7);
+      border-radius: 16px;
+      top: -80px;
+      /* 14 regular */
+
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #ffffff;
+    }
+  }
+  .ant-tabs-tab {
+    padding: 10px;
+    height: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+    display: none;
+  }
+  .ant-tabs-content-holder {
+    border: none;
+  }
+}
+
+.Content-body_DownloadPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &-Title {
+    margin-top: 50px;
+    h3 {
+      text-transform: uppercase;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 78px;
+      color: #fff9f4;
+    }
+
+    span {
+      color: #ff7506;
+    }
+  }
+  &-Border {
+    width: 480px;
+    border-bottom: 2px dashed #ff7506;
+  }
+  &-SubTitle {
+    margin-top: 34px;
+    p {
+      width: 544px;
+
+      margin: 0;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #ffffff;
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  &-GroupDownLoad {
+    display: flex;
+    margin-top: 74px;
+    &-item {
+      width: 350px;
+      height: 373px;
+      background: rgba(47, 47, 65, 0.7);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 112px;
+      &_image {
+      }
+      &_btn {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+.Content-body_FeedBackPage {
+  &-Left {
+    .ant-segmented {
+      width: 571px;
+      height: 834px;
+
+      background: #2b2b3f;
+      border-radius: 16px;
+    }
+    .ant-segmented-group {
+      // flex-direction: column;
+
+      background: #2b2b3f;
+      border-radius: 16px;
+      .label.ant-segmented-item {
+        width: 555px;
+        height: 80px !important;
+      }
+      .ant-segmented-item-label {
+        height: 80px !important;
+      }
+    }
+
+ 
+    .User_FeedBack {
+      display: flex;
+      &-Info {
+        &_Name {
+          p {
+            text-align: start;
+          }
+        }
+        &_Value {
+          display: flex;
+          ul {
+            width: 100%;
+            display: flex;
+            padding-left: 30px;
+          }
+          li {
+            width: 180px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+}

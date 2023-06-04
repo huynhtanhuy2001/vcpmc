@@ -1,0 +1,30 @@
+.Control-KhoBG {
+  position: relative;
+  width: 1534px;
+  label.ant-checkbox-wrapper {
+    display: flex;
+   align-items: center;
+    span.ant-checkbox-inner {
+      border-color: rgba(52, 122, 255, 1);
+      width: 24px;
+      height: 24px;
+    }
+    span {
+        height: 40px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+    //   font-size: 16px;
+      line-height: 30px;
+
+      color: #ffffff;
+    }
+  }
+}
+.Control-KhoBG_GroupSelect {
+  display: flex;
+  margin-top: 24px;
+}
+// .Control-DSHopDong_Search{
+//     margin-left: 286px;
+// }

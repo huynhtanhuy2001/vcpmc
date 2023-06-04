@@ -1,0 +1,10 @@
+.BtnTabKhoBanGhi{
+    position: absolute;
+    right: 0;
+    &_Item{
+        display: flex;
+        &-list{
+            margin-right: 12px
+        }
+    }
+}

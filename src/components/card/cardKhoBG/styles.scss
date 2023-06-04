@@ -1,0 +1,144 @@
+@import "~video-react/styles/scss/video-react";
+
+.CardListItemBanGhi {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1600px;
+  overflow: hidden;
+  height: 700px;
+  &_Item {
+    width: 342px !important;
+    height: 330px !important;
+    border-radius: 8px;
+    margin-right: 58px;
+    margin-bottom: 30px;
+
+    &-Image {
+      position: relative;
+      img.ant-image-img {
+        border-radius: 8px 8px 0px 0px;
+      }
+      &_Play {
+        position: absolute;
+        top: 70px;
+        right: 150px;
+      }
+    }
+
+    &-Decription {
+      width: 342px;
+      height: 156px;
+      border-radius: 0px 0px 8px 8px;
+      background: rgba(57, 57, 85, 0.7);
+      &_Name {
+        padding-top: 12px;
+        h4 {
+          margin-left: 16px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+          margin-bottom: 0;
+        }
+      }
+      &_Info {
+        .ant-form-item {
+          margin-bottom: 0 !important;
+          height: 18px;
+          margin-left: 16px;
+        }
+        label {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 18px;
+          letter-spacing: 0.005em;
+          color: #f5f5ff !important;
+
+          opacity: 0.8;
+        }
+        span {
+          color: #f5f5ff !important;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+
+          color: #f5f5ff !important;
+
+          opacity: 0.8;
+        }
+      }
+      &_Type {
+        margin-top: 16px;
+        margin-left: 16px;
+        display: flex;
+        position: relative;
+        &Item {
+          width: 57px;
+          height: 38px;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+
+          justify-content: center;
+          border: 1px solid #727288;
+          border-radius: 6px;
+          margin-right: 8px;
+        }
+
+        label {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 8px;
+          line-height: 12px;
+
+          color: #727288;
+        }
+        p {
+          margin-bottom: 0;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #f5f5ff;
+        }
+      }
+      &_BtnEdit {
+        position: absolute;
+        right: 20px;
+        bottom: 4px;
+      }
+    }
+  }
+}
+.PavinationPageKhoBG {
+  width: 1540px;
+  display: flex;
+  justify-content: flex-end;
+
+  li.ant-pagination-item {
+    a {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+
+      color: #fff9f4 !important;
+    }
+  }
+  li.ant-pagination-item.ant-pagination-item-active {
+    background: rgba(255, 117, 6, 0.5);
+    border-radius: 50%;
+  }
+
+  svg {
+    color: #ffac69 !important;
+  }
+}

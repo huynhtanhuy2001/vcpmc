@@ -1,0 +1,118 @@
+.ModalThemBG {
+  .ant-modal-content {
+    background-color: #3e3e5b !important;
+    border-radius: 16px !important;
+    width: 800px;
+    height: 824px;
+    .ant-modal-body {
+      .Modal_Title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h3 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 24px;
+
+          color: white;
+        }
+      }
+
+      label {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #f5f5ff;
+      }
+      textarea {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #ffff;
+        background: #2b2b3f;
+        border: 1px solid #727288;
+        border-radius: 8px;
+      }
+      textarea ::placeholder {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #727288;
+      }
+      .Frm_ThemBanGhi {
+        input {
+          width: 720px;
+          height: 48px;
+
+          background: #2b2b3f;
+
+          border: 1px solid #727288;
+          border-radius: 8px;
+          color: white;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        .horizontal_form {
+          display: flex;
+          margin-bottom: 32px;
+          .ant-form-item-control-input-content {
+            width: 367px;
+          }
+          input {
+            width: 347px;
+            height: 48px;
+          }
+          .Control-Select .ant-select-selector {
+            height: 48px !important;
+            border: 1px solid #727288  !important;
+            background-color:  #2B2B3F !important;
+          }
+        }
+        .FileItem {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 80px;
+          span {
+            margin-left: 8px;
+          }
+          label{
+            margin: 0 !important;
+          }
+        }
+      
+      }
+      :where(.css-dev-only-do-not-override-1cr6b6).ant-upload-wrapper .ant-upload-list {
+        
+        position: absolute;
+        left: 0;
+    }
+    :where(.css-dev-only-do-not-override-1cr6b6).ant-upload-wrapper .ant-upload-list .ant-upload-list-item .ant-upload-list-item-name {
+    
+      width: 250px;
+  }
+      .btn-group {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+      }
+    }
+  }
+}

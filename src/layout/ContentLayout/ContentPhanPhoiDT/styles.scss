@@ -1,0 +1,24 @@
+.ChiTietPPDoanhThu {
+  display: flex;
+
+  &-Title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #e5e5e5;
+    span {
+        color: #ffac69;
+      }
+  }
+  
+
+  &_Left {
+    margin-right: 24px;
+  }
+  .mb-4{
+    margin-bottom: 48px;
+  }
+}
