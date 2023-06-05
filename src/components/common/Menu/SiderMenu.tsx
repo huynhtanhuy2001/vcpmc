@@ -160,7 +160,6 @@ const SiderMenu = () => {
         mode="vertical"
         items={items}
       />
-      
     </Sider>
   );
 };

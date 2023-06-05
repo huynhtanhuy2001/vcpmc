@@ -1,6 +1,7 @@
 import { Form, Input, Button, Space, Checkbox } from "antd";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { collection, getDocs, query, where } from "firebase/firestore";
+import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 
 import { useEffect, useState } from "react";
 
@@ -70,13 +71,22 @@ const FormLogin = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
       </Form.Item>
-      <Form.Item label="Password" name="password" initialValue={password}>
+      {/* <Form.Item label="Password" name="password" initialValue={password}>
         <Input
           type="password"
           required
           onChange={(e) => setPassword(e.target.value)}
+           iconRender={(visible) => (visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />)}
         />
-      </Form.Item>
+      </Form.Item> */}
+      <Form.Item label="Password" name="password" initialValue={password}>
+  <Input.Password style={{background:"#2b2b3f"}}
+    required
+    onChange={(e) => setPassword(e.target.value)}
+    iconRender={(visible) => (visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />)}
+  />
+</Form.Item>
+
       {statusLogin ? (
         ""
       ) : (
