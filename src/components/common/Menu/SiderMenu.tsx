@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Layout, Menu, Avatar } from "antd";
 import type { MenuProps } from "antd";
+import { MenuFoldOutlined, RightOutlined } from "@ant-design/icons";
 import "./styles.scss";
 import { useHistory, useParams } from "react-router-dom";
 import { IParams } from "../../../types";
@@ -136,10 +137,49 @@ const items: MenuItem[] = [
 const SiderMenu = () => {
   const history = useHistory();
   const { page, control }: IParams = useParams();
+
   const onClickItem: MenuProps["onClick"] = e => {
     history.push(e.key);
   };
+
   const keySelect = control ? `/${page}/${control}` : `/${page}`;
+
+  // const [shouldRenderIcon, setShouldRenderIcon] = useState(false);
+  // useEffect(() => {
+  //   setShouldRenderIcon(keySelect === "/laplichphat");
+  // }, [keySelect]);
+
+  // const siderContent = shouldRenderIcon ? (
+  //   <div style={{ width: "40px" }} className="icon">
+  //     <MenuFoldOutlined style={{ color: "white" }} />
+  //   </div>
+  // ) : (
+  //   <>
+  //     <div className="logo">
+  //       <Avatar
+  //         size={96}
+  //         icon={<img src={require("../../../assets/image/logo.png")} />}
+  //       />
+  //     </div>
+  //     <Menu
+  //       onClick={onClickItem}
+  //       selectedKeys={[keySelect]}
+  //       style={{
+  //         width: 170,
+  //         height: 1080,
+  //         backgroundColor: "#020220",
+  //         color: "#ffff",
+  //       }}
+  //       mode="vertical"
+  //       items={items}
+  //     />
+  //   </>
+  // );
+  // return (
+  //   <Sider trigger={null} collapsible>
+  //     {siderContent}
+  //   </Sider>
+  // );
   return (
     <Sider trigger={null} collapsible>
       <div className="logo">
@@ -160,6 +200,7 @@ const SiderMenu = () => {
         mode="vertical"
         items={items}
       />
+    
     </Sider>
   );
 };

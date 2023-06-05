@@ -42,12 +42,12 @@ const BtnTabPlayList = () => {
         <div className="BtnTabPlayList_Item">
           <div className="BtnTabPlayList_Item-list" onClick={handleChangeShow2List}>
             <img
-              src={require("../../../assets/image/action-icon/fi_listdf.png")}
+              src={require("../../../assets/image/action-icon/fi_listdf.png")} alt=""
             />
           </div>
           <div className="BtnTabPlayList_Item-grid">
             <img
-              src={require("../../../assets/image/action-icon/fi_grid.png")}
+              src={require("../../../assets/image/action-icon/fi_grid.png")} alt=""
             />
           </div>
         </div>
