@@ -79,7 +79,6 @@ const items: MenuItem[] = [
     <>
       <div className="menu-item">
         <img src={require("../../../assets/image/menu-icon/baocaoicon.png")} />
-
         <span>Doanh thu</span>
       </div>
     </>,
@@ -96,7 +95,6 @@ const items: MenuItem[] = [
         <img src={require("../../../assets/image/menu-icon/Settingicon.png")} />
 
         <span>Cài đặt</span>
-        <RightOutlined></RightOutlined>
       </div>
     </>,
     "/setting",
@@ -144,42 +142,6 @@ const SiderMenu = () => {
 
   const keySelect = control ? `/${page}/${control}` : `/${page}`;
 
-  // const [shouldRenderIcon, setShouldRenderIcon] = useState(false);
-  // useEffect(() => {
-  //   setShouldRenderIcon(keySelect === "/laplichphat");
-  // }, [keySelect]);
-
-  // const siderContent = shouldRenderIcon ? (
-  //   <div style={{ width: "40px" }} className="icon">
-  //     <MenuFoldOutlined style={{ color: "white" }} />
-  //   </div>
-  // ) : (
-  //   <>
-  //     <div className="logo">
-  //       <Avatar
-  //         size={96}
-  //         icon={<img src={require("../../../assets/image/logo.png")} />}
-  //       />
-  //     </div>
-  //     <Menu
-  //       onClick={onClickItem}
-  //       selectedKeys={[keySelect]}
-  //       style={{
-  //         width: 170,
-  //         height: 1080,
-  //         backgroundColor: "#020220",
-  //         color: "#ffff",
-  //       }}
-  //       mode="vertical"
-  //       items={items}
-  //     />
-  //   </>
-  // );
-  // return (
-  //   <Sider trigger={null} collapsible>
-  //     {siderContent}
-  //   </Sider>
-  // );
   return (
     <Sider trigger={null} collapsible>
       <div className="logo">
@@ -199,6 +161,7 @@ const SiderMenu = () => {
         }}
         mode="vertical"
         items={items}
+        // expandIcon
       />
     </Sider>
   );

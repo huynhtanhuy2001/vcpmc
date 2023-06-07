@@ -60,6 +60,7 @@ ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-o
   line-height: 20px;
   border-radius: 0px 8px 8px 0px;
 }
+
 :where(.css-dev-only-do-not-override-1cr6b6).ant-menu-light
   .ant-menu-item:hover:not(.ant-menu-item-selected):not(
     .ant-menu-submenu-selected
@@ -69,5 +70,4 @@ ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-o
     .ant-menu-submenu-selected
   ) {
   color: #ff7506;
-
 }
