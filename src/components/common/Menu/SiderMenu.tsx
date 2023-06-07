@@ -14,7 +14,6 @@ type MenuItem = Required<MenuProps>["items"][number];
 function getItem(
   label: React.ReactNode,
   key?: React.Key | null,
-
   children?: MenuItem[],
   type?: "group"
 ): MenuItem {
@@ -97,6 +96,7 @@ const items: MenuItem[] = [
         <img src={require("../../../assets/image/menu-icon/Settingicon.png")} />
 
         <span>Cài đặt</span>
+        <RightOutlined></RightOutlined>
       </div>
     </>,
     "/setting",
@@ -200,7 +200,6 @@ const SiderMenu = () => {
         mode="vertical"
         items={items}
       />
-    
     </Sider>
   );
 };

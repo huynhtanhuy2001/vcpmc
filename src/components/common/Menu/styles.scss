@@ -3,19 +3,19 @@
   margin-bottom: 110px;
 }
 .ant-layout-sider-children {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #020220;
-    width: 170px ;
-    height: 1080px;
-  }
-  aside.ant-layout-sider.ant-layout-sider-dark {
-    flex: 0 0 170px !important;
-    min-width: 170px !important;
-    width: 170px !important;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #020220;
+  width: 170px;
+  height: 1080px;
+}
+aside.ant-layout-sider.ant-layout-sider-dark {
+  flex: 0 0 170px !important;
+  min-width: 170px !important;
+  width: 170px !important;
+}
 ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-override-1cr6b6 {
   .ant-menu-submenu-title,
   li.ant-menu-item.ant-menu-item-only-child {
@@ -59,9 +59,15 @@ ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-o
   font-size: 14px;
   line-height: 20px;
   border-radius: 0px 8px 8px 0px;
-
-
 }
-:where(.css-dev-only-do-not-override-1cr6b6).ant-menu-light .ant-menu-item:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected), :where(.css-dev-only-do-not-override-1cr6b6).ant-menu-light .ant-menu-submenu-title:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected) {
-    color: #ff7506;
+:where(.css-dev-only-do-not-override-1cr6b6).ant-menu-light
+  .ant-menu-item:hover:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ),
+:where(.css-dev-only-do-not-override-1cr6b6).ant-menu-light
+  .ant-menu-submenu-title:hover:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ) {
+  color: #ff7506;
+
 }
